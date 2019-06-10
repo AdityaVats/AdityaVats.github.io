@@ -1,0 +1,79 @@
+.s1{
+    padding-top:30vh;
+    padding-left: 2vh;
+    
+}
+.headings{
+    color:darkblue;
+    font-weight: bold;
+}
+ul.nav a:hover { color: rgb(251, 255, 0) !important; }
+.s1-info{
+    padding: 5vh;
+}
+.subHeading{
+    color: #7A869A;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.intern-logo{
+    padding: 2vh;
+    height: 20vh;
+    width: 10vh;
+}
+.car-button{
+    padding-top: 100px;
+}
+footer{
+    background: purple;
+    color: white;
+    
+}
+footer a{
+    color: white;
+    
+}
+footer a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+.foot-head{
+    font-size: 18px;
+
+}
