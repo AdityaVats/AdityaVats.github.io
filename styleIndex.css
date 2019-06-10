@@ -63,9 +63,11 @@ ul.nav a:hover { color: rgb(251, 255, 0) !important; }
 footer{
     background: purple;
     color: white;
+    margin-top: 100px;
     
 }
 footer a{
+   
     color: white;
     
 }
@@ -76,4 +78,10 @@ footer a:hover{
 .foot-head{
     font-size: 18px;
 
+}
+.intern-profile{
+
+    color: forestgreen;
+    font-weight: bolder;
+    font size: 1.2em;
 }
